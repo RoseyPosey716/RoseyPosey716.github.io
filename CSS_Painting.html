@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Painting</title>
+
+    <style>
+       #container {
+           
+           width: 800px;
+           height: 800px; 
+           margin-left: auto;
+           margin-right: auto;
+           background-color: rgb(255, 255, 255);
+           position: relative;
+       }
+
+       
+
+       #white {
+           background-color: #B7BCC2;
+           position: absolute;
+           height: 600px;
+           width: 600px;
+           top: 100px;
+           left: 100px;
+           z-index: 0;
+       }
+
+       #yellowsquare {
+        background-color: #DCBB53;
+           position: absolute;
+           height: 220px;
+           width: 193px;
+           top: 100px;
+           left: 480px;
+           z-index: 1;
+       }
+
+       #yellowrectangle {
+        background-color: #DCBB53;
+           position: absolute;
+           height: 145px;
+           width: 85px;
+           top: 555px;
+           left: 100px;
+           z-index: 2;
+       }
+
+       #bluerectangle {
+        background-color: #1E3F6C;
+           position: absolute;
+           height: 110px;
+           width: 190px;
+           top: 555px;
+           left: 480px;
+           z-index: 3;
+       }
+    
+       #whitesquarea {
+        background-color: #dee0df;
+           position: absolute;
+           height: 240px;
+           width: 190px;
+           top: 320px;
+           left: 480px;
+           z-index: 4;
+       }
+
+       #whitesquareb {
+        background-color: #dee0df;
+           position: absolute;
+           height: 220px;
+           width: 220px;
+           top: 100px;
+           left: 260px;
+           z-index: 4;
+       }
+
+       #whitesquarec {
+        background-color: #dee0df;
+           position: absolute;
+           height: 160px;
+           width: 220px;
+           top: 170px;
+           left: 100px;
+           z-index: 4;
+       }
+   
+       #blacke {
+           background-color: #000000;
+           position: absolute;
+           height: 10px;
+           width: 545px;
+           top: 320px;
+           left: 125px;
+           z-index: 5;
+       }
+
+       #redsquare {
+        background-color: #BE442F;
+           position: absolute;
+           height: 315px;
+           width: 315px;
+           top: 170px;
+           left: 175px;
+           z-index: 10;
+       }
+
+       #redrectangle {
+        background-color: #BE442F;
+           position: absolute;
+           height: 145px;
+           width: 37px;
+           top: 555px;
+           right: 100px;
+           z-index: 15;
+       }
+
+       #blacka {
+           background-color: #000000;
+           position: absolute;
+           height: 510px;
+           width: 10px;
+           top: 170px;
+           left: 175px;
+           z-index: 25;
+       }
+       
+       #blackb {
+           background-color: #000000;
+           position: absolute;
+           height: 570px;
+           width: 10px;
+           top: 120px;
+           right:127px;
+           z-index: 30;
+       }
+      
+       #blackc {
+           background-color: #000000;
+           position: absolute;
+           height: 10px;
+           width: 545px;
+           top: 170px;
+           left: 125px;
+           z-index: 35;
+       }
+
+       #blackd {
+           background-color: #000000;
+           position: absolute;
+           height: 10px;
+           width: 575px;
+           top: 555px;
+           left: 125px;
+           z-index: 40;
+       }
+      
+       #blackg {
+           background-color: #000000;
+           position: absolute;
+           height: 10px;
+           width: 490px;
+           top: 480px;
+           left: 175px;
+           z-index: 45;
+       }
+       
+
+       #blackf {
+           background-color: #000000;
+           position: absolute;
+           height: 560px;
+           width: 10px;
+           top: 110px;
+           left: 480px;
+           z-index: 50;
+       }
+      
+       #blackh {
+           background-color: #000000;
+           position: absolute;
+           height: 170px;
+           width: 10px;
+           top: 320px;
+           left: 575px;
+           z-index: 55;
+       }
+
+       #blacki {
+           background-color: #000000;
+           position: absolute;
+           height: 210px;
+           width: 10px;
+           top: 480px;
+           left: 325px;
+           z-index: 60;
+       }
+
+       #blackj {
+           background-color: #000000;
+           position: absolute;
+           height: 10px;
+           width: 300px;
+           top: 630px;
+           left: 180px;
+           z-index: 65;
+       }
+
+       #blackk {
+           background-color: #000000;
+           position: absolute;
+           height: 10px;
+           width: 345px;
+           top: 660px;
+           left: 325px;
+           z-index: 70;
+       }
+
+       #blackl {
+           background-color: #000000;
+           position: absolute;
+           height: 50px;
+           width: 10px;
+           top: 120px;
+           left: 260px;
+           z-index: 75;
+       }
+
+       #blacksquare {
+        background-color: #000000;
+           position: absolute;
+           height: 150px;
+           width: 150px;
+           top: 490px;
+           left: 175px;
+           z-index: 80;
+       }
+
+       #blackrectangle {
+        background-color: #000000;
+           position: absolute;
+           height: 20px;
+           width: 150px;
+           top: 640px;
+           left: 330px;
+           z-index: 85;
+       }
+
+    </style>
+</head>
+        
+<body style="background-color: rgb(51, 51, 51);"> 
+    <div id="container"> 
+    <div id="white">&nbsp;</div>
+    <div id="blacka">&nbsp;</div>
+    <div id="blackb">&nbsp;</div>
+    <div id="blackc">&nbsp;</div>
+    <div id="blackd">&nbsp;</div>
+    <div id="blacke">&nbsp;</div>
+    <div id="blackf">&nbsp;</div>
+    <div id="redsquare">&nbsp;</div>
+    <div id="blackg">&nbsp;</div>
+    <div id="blackh">&nbsp;</div>
+    <div id="blacki">&nbsp;</div>
+    <div id="blackj">&nbsp;</div>
+    <div id="blackk">&nbsp;</div>
+    <div id="blackl">&nbsp;</div>
+    <div id="blacksquare">&nbsp;</div>
+    <div id="blackrectangle">&nbsp;</div>
+    <div id="yellowsquare">&nbsp;</div>
+    <div id="yellowrectangle">&nbsp;</div>
+    <div id="bluerectangle">&nbsp;</div>
+    <div id="redrectangle">&nbsp;</div>
+    <div id="whitesquarea">&nbsp;</div>
+    <div id="whitesquareb">&nbsp;</div>
+    <div id="whitesquarec">&nbsp;</div>
+
+    </div>
+    
+    <p style="font-size:large; font-family: Cambria, Cochin, Georgia, Times,'Times New Roman', serif; color: #fefbd8;">This is a replica of Piet Mondrian’s 
+        
+    <a href="https://www.artsy.net/artwork/piet-mondrian-composition-with-large-red-plane-yellow-black-grey-and-blue" style="font-size:large; font-family: Cambria, Cochin, Georgia, Times,'Times New Roman', serif; color: #fefbd8;">“Tableau No. IV; Lozenge Composition with Red, Gray, Blue, Yellow, and Black.”</a> 
+    
+    This painting was created in 1924 and features blocks of primary color, separated by thick black lines, on top of a grey background. This is the signature of Mondrian, as he only works with straight lines and boxes of primary colors. Though coding I have replicated his painting as closely as possible. Of course this has a much smoother appearance to it, considering the original was made with oil paint. 
+    </p>
+<br>
+<br>
+    <a href="index.html" style="font-size:large; font-family: Cambria, Cochin, Georgia, Times,'Times New Roman', serif; color: #fefbd8;">Back to the Index Page</a>
+
+
+</body>
+</html>
